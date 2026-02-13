@@ -3,8 +3,8 @@
 ### ReadMe for Python and R Code used in the GAN Evaluation Study
 ### Author: Bhartendu Pandey
 ### Directory Structure:
-
-Root\n
+```
+Root
 ├── 1_TrainingandTestingDataCollection
 │   ├── 1_CreateTesting_seed_number.py
 │   └── 1_CreateTraining.py
@@ -25,7 +25,7 @@ Root\n
 ├── BPspatlibv0.py
 ├── BPspatlibv1.py
 └── buildingspoly_CApy.py
-
+```
 ### Description:
 
 1_TrainingandTestingDataCollection: This folder contains the python scripts, i.e., 1_CreateTraining.py and 1_CreateTesting_seed_number.py, to generate training data (8,000 tiles) and testing data (2,000 tiles), respectively.
