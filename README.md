@@ -3,7 +3,8 @@
 ### ReadMe for Python and R Code used in the GAN Evaluation Study
 ### Author: Bhartendu Pandey
 ### Directory Structure:
-Root
+
+Root\n
 ├── 1_TrainingandTestingDataCollection
 │   ├── 1_CreateTesting_seed_number.py
 │   └── 1_CreateTraining.py
