@@ -45,4 +45,3 @@ Root
 •	BuildingVolume_Heterogeneity_LAPlot.py: This script runs Taylor’s power law scaling analysis for the Los Angeles urban area.
 
 BPspatlibv0.py and BPspatlibv1.py contains helper functions referenced in some of the scripts above.
-<img width="468" height="643" alt="image" src="https://github.com/user-attachments/assets/1e640cd7-4439-417a-8551-2087aee08f58" />
