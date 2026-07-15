@@ -1,0 +1,2 @@
+"n_windows","n_windows_with_expected_variance","n_windows_for_log_metrics","nonpositive_reference_expected_variance_windows","nonpositive_reference_variance_windows","median_log10_variance_ratio","q1_log10_variance_ratio","q3_log10_variance_ratio","median_reference_variance","median_reference_expected_variance","pct_windows_below_expected","pct_windows_within_expected_ci"
+107,106,106,1,1,-0.0104835813328566,-0.213279813032693,0.170145529456267,1685056.64388418,2096577.38901766,51.8867924528302,36.7924528301887

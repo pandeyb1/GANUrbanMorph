@@ -1,0 +1,3 @@
+"geography","population_source","inclusion_rule","population_2010","population_2020","log10_population_2010","population_growth_pct"
+"Los Angeles--Long Beach--Anaheim urban area","LandScan clipped to 2010 NHGIS urban area G51445","cell_center",12531704,12693798,7.09801012825525,1.29347134276392
+"Los Angeles--Long Beach--Anaheim urban area","LandScan clipped to 2010 NHGIS urban area G51445","touched_cells",12631614,12809732,7.10145884592429,1.41009692031438

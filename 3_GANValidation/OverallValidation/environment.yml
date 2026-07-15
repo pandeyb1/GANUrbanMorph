@@ -1,0 +1,13 @@
+name: overall-gan-validation
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.12.9
+  - pytorch=2.4.0
+  - numpy=1.26.4
+  - pandas=2.3.0
+  - scipy=1.15.2
+  - matplotlib=3.10.0
+  - rasterio=1.4.3
+  - tqdm=4.67.1

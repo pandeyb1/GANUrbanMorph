@@ -1,0 +1,47 @@
+.DS_Store
+**/.DS_Store
+
+# Python/R runtime artifacts
+__pycache__/
+*.py[cod]
+.Rhistory
+.RData
+.Rproj.user/
+
+# Large archives and compressed generated outputs
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+
+# Model checkpoints and binary arrays
+*.pth
+*.pt
+*.ckpt
+*.npz
+*.npy
+
+# Local generated data and results
+1_TrainingandTestingDataCollection/Revision_CONUS_Stratified_ExactFootprints/output/
+1_TrainingandTestingDataCollection/Revision_CONUS_Stratified_ExactFootprints/output_test/
+1_TrainingandTestingDataCollection/Revision_CONUS_Stratified_ExactFootprints/state_cache/
+1_TrainingandTestingDataCollection/Revision_CONUS_Stratified_ExactFootprints/scan_chunks/
+3_GANValidation/OverallValidation/results/
+3_GANValidation/OverallValidation/results_smoke/
+3_GANValidation/SpatialClustering/results/
+3_GANValidation/SpatialClustering/results_smoke/
+3_GANValidation/SpatialClustering/spatial_clustering_results_A100/
+3_GANValidation/HeightBiasbyLandUseType/tables/*tile_stats*.csv
+5_UrbanScaling/data/
+
+# Large geospatial inputs should be cited or archived externally
+*.tif
+*.tiff
+*.gpkg
+*.shp
+*.dbf
+*.shx
+*.prj
+*.cpg
+*.qix

@@ -1,0 +1,65 @@
+{
+  "results_root": "results",
+  "device": "auto",
+  "batch_size": 16,
+  "cache_mode": "lazy",
+  "model_roots": {
+    "LALegacy": "/Volumes/HDD/Models/LALegacyModels",
+    "MSASample": "/Volumes/HDD/Models/MSASampleModels"
+  },
+  "dataset_specs": {
+    "SanDiegoTestNoOverlap": {
+      "root": "/Volumes/HDD/Models/TestData/SanDiegoTestNoOverlap",
+      "bf_condition_dir": "central",
+      "bf_target_dir": "Frac",
+      "bh_condition_dir": "Frac",
+      "bh_target_dir": "Target",
+      "manifest": "/Volumes/HDD/Models/TestData/SanDiegoTestNoOverlap/dataset_manifest.json"
+    },
+    "CONUSStratifiedTest": {
+      "root": "/Volumes/HDD/Models/TestData/CONUSStratifiedTest",
+      "bf_condition_dir": "central",
+      "bf_target_dir": "BFrac",
+      "bh_condition_dir": "BFrac",
+      "bh_target_dir": "BHeight",
+      "manifest": "/Volumes/HDD/Models/TestData/CONUSStratifiedTest/dataset_manifest.json"
+    }
+  },
+  "active_families": ["1", "2A", "3"],
+  "learning_rates": [0.0001, 0.0002, 0.0005, 0.001],
+  "checkpoints": [250, 500, 750, 1000],
+  "primary_latent_seed": 17,
+  "diversity_latent_seeds": [0, 1, 2, 3, 4, 5, 6, 7],
+  "bootstrap_seed": 20260707,
+  "bootstrap_reps": 1000,
+  "bf_active_threshold": 0.01,
+  "bh_active_threshold_m": 0.5,
+  "bf_bins": [
+    {"label": "0.01-0.05", "min": 0.01, "max": 0.05},
+    {"label": "0.05-0.15", "min": 0.05, "max": 0.15},
+    {"label": "0.15+", "min": 0.15, "max": null}
+  ],
+  "bh_bins_m": [
+    {"label": "<6", "min": 0.0, "max": 6.0},
+    {"label": "6-10", "min": 6.0, "max": 10.0},
+    {"label": "10-15", "min": 10.0, "max": 15.0},
+    {"label": "15+", "min": 15.0, "max": null}
+  ],
+  "diversity_subset_per_bin": {
+    "BF": 80,
+    "BH": 60
+  },
+  "pixel_regression_tile_budget": {
+    "BF": 128,
+    "BH": 128
+  },
+  "pixel_regression_samples_per_bin": {
+    "BF": 2000,
+    "BH": 2000
+  },
+  "pixel_regression_candidates_per_tile": 64,
+  "representative_sample_target_modes": {
+    "BF": "standard",
+    "BH": "pipeline_bf"
+  }
+}

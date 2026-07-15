@@ -1,0 +1,7 @@
+# Building Volume-Population Size Scaling
+
+The 2015 metropolitan scaling fit used 379 metropolitan statistical areas and estimated a near-linear building-volume population exponent of 0.90 (robust 95% CI: 0.87-0.94).
+
+For NLCD-based newly developed pixels in Los Angeles between 2010 and 2020, the MA v2 reference data imply a 3.07% increase in aggregate building volume relative to the 2010 baseline. Without bias correction, the U-Net baseline predicts 1.90-2.31% under the Los Angeles Model and 2.12-3.11% under the CONUS Model. The single-latent cGAN predicts 2.22-2.45% under the Los Angeles Model and 2.58-2.86% under the CONUS Model.
+
+Figure caption: Building volume-population size scaling and uncorrected model-predicted building-volume growth. Left: building volume scaling with population across 379 metropolitan statistical areas of the United States in 2015; the solid red line shows the log-log least-squares fit and the dashed lines show the corresponding 95% confidence interval. The red point marks the raster-derived Los Angeles urban-area estimate and is not included in the MSA fit; the Los Angeles-Long Beach-Anaheim MSA remains one of the gray MSA points. Right: 2010-to-2020 LandScan cell-center population and aggregate building-volume changes for the Los Angeles urban area, where the red arrow marks the reference change and colored arrows mark uncorrected epoch-1000 U-Net and single-latent cGAN outputs across learning rates and training regimes.

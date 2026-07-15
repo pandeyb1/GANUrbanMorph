@@ -1,0 +1,18 @@
+{
+  "overall_validation_dir": "../OverallValidation",
+  "overall_validation_config": "../OverallValidation/validation_config.json",
+  "results_root": "results",
+  "device": "auto",
+  "batch_size": 64,
+  "cache_mode": "lazy",
+  "checkpoint": 1000,
+  "training_regimes": ["LALegacy", "MSASample"],
+  "families": ["1", "2A", "3"],
+  "datasets": ["CONUSStratifiedTest", "SanDiegoTestNoOverlap"],
+  "learning_rates": [0.0001, 0.0002, 0.0005, 0.001],
+  "targets": ["BF", "BH"],
+  "bh_modes": ["oracle_bf"],
+  "primary_latent_seed": 17,
+  "mask_mode": "full_tile",
+  "neighbor_mode": "rook"
+}
